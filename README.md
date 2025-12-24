@@ -55,6 +55,7 @@ Le dossier `anparam` contient les structures partagées nécessaires au démarra
 
 ## 🗂 Structure du projet
 
+```
 .
 ├── _cmd/
 │   └── init/            # Script d'initialisation du template
@@ -64,7 +65,7 @@ Le dossier `anparam` contient les structures partagées nécessaires au démarra
 ├── go.mod
 ├── go.sum
 └── README.md
-
+```
 ---
 
 ## ⚙️ Initialisation du projet
