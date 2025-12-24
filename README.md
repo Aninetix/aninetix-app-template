@@ -78,18 +78,24 @@ Après avoir cloné le template, il est nécessaire de **l’initialiser** afin 
 
 ### 1️⃣ Cloner le template
 
+```
 git clone [https://github.com/Aninetix/aninetix-app-template](https://github.com/Aninetix/aninetix-app-template) my-app
 cd my-app
+```
 
 ---
 
 ### 2️⃣ Initialiser le projet
 
+```
 go run ./_cmd/init <nouveau-nom-du-module>
+```
 
 Exemple :
 
+```
 go run ./_cmd/init github.com/Aninetix/my-awesome-app
+```
 
 Cela va automatiquement :
 
@@ -101,9 +107,11 @@ Cela va automatiquement :
 
 ### 3️⃣ Finaliser
 
+```
 rm -rf .git
 git init
 go mod tidy
+```
 
 ---
 
